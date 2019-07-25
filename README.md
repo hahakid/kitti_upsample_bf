@@ -2,7 +2,8 @@
 bilateral filter for kitti tracking and object  
 
 Window should install Mingw, double click the mingw.mlpkginstall and install packages under VPN.
-If no need to change the kernel size (=5 default), the fun_dense3D.mexw64 can be used. Or you should modify the grid with a odd number.  
+If no need to change the kernel size (=5 default), the fun_dense3D.mexw64 can be used.   
+Or you should modify the grid with a odd number. And then, use `mex fun_dense3D.cpp` recomplie the cpp code.
 
 kitti_object.m for object set  
 kitti_tacking.m for tracking set  
